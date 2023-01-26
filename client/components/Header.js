@@ -9,7 +9,8 @@ function Header() {
       <h1 className="py-4 px-4 font-bold text-3xl">Staking App</h1>
       </div>
       <div className="ml-auto py-2 px-4">
-        <ConnectButton moralisAuth={false}  />
+        <ConnectButton moralisAuth={false}  /> 
+        {/* gives customize options to connect to wallets */}
       </div>
       </div>
     </nav>

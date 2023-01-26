@@ -5,12 +5,12 @@ require("@nomiclabs/hardhat-etherscan");
 module.exports = {
 
   solidity: "0.8.6",
-  // settings:{
-  //   optimizer:{
-  //     enabled:true,
-  //     runs:200
-  //   }
-  
+  settings:{
+    optimizer:{
+      enabled:true,
+      runs:200
+    }
+  },
   networks:{
     hardhat:{
       chainId:1337
@@ -26,8 +26,6 @@ module.exports = {
     //select export private key
     //copy and paste pvt key .env Main_account 
 
-  }
-}
     // goerli:{
     //   url: `https://goerli.infura.io/v3/${process.env.INFURA_API}`,
     //   accounts:[process.env.MAIN_ACCOUNT],
@@ -38,9 +36,7 @@ module.exports = {
     //   accounts:[process.env.MAIN_ACCOUNT],
     //   chainId:80001,
     // },
-
-
-  
+  },
   // gasReporter:{
   //   enabled:true,
   //   currency:"INR",
@@ -49,4 +45,5 @@ module.exports = {
   //   outputFile:"gasReports.txt",
   //   noColors:true
   // }
+}
   
