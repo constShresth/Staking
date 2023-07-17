@@ -1,0 +1,2 @@
+RewardToken contract deployed to: 0x02b074dB4ef4b5F7ab7602Df5D68b0336ceFA111
+Staking contract deployed to: 0xAd36c5D15482A8C00Ba50997386a3F202b95E274
